@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84E05ABB16E7DAC200CB9A6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E05ABA16E7DAC200CB9A6A /* UIKit.framework */; };
+		84E05ABD16E7DAC200CB9A6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E05ABC16E7DAC200CB9A6A /* Foundation.framework */; };
+		84E05ABF16E7DAC200CB9A6A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E05ABE16E7DAC200CB9A6A /* CoreGraphics.framework */; };
+		84E05AC516E7DAC200CB9A6A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84E05AC316E7DAC200CB9A6A /* InfoPlist.strings */; };
+		84E05AC716E7DAC200CB9A6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E05AC616E7DAC200CB9A6A /* main.m */; };
+		84E05ACB16E7DAC200CB9A6A /* SKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E05ACA16E7DAC200CB9A6A /* SKAppDelegate.m */; };
+		84E05ACE16E7DAC200CB9A6A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E05ACC16E7DAC200CB9A6A /* MainStoryboard.storyboard */; };
+		84E05AD116E7DAC300CB9A6A /* SKMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E05AD016E7DAC300CB9A6A /* SKMasterViewController.m */; };
+		84E05AD416E7DAC300CB9A6A /* SKDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E05AD316E7DAC300CB9A6A /* SKDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84E05AB616E7DAC200CB9A6A /* SK1-4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SK1-4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E05ABA16E7DAC200CB9A6A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84E05ABC16E7DAC200CB9A6A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84E05ABE16E7DAC200CB9A6A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84E05AC216E7DAC200CB9A6A /* SK1-4-Info.plist */ = {isa = PBXFileReference; path = "SK1-4-Info.plist"; sourceTree = "<group>"; };
+		84E05AC416E7DAC200CB9A6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84E05AC616E7DAC200CB9A6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84E05AC816E7DAC200CB9A6A /* SK1-4-Prefix.pch */ = {isa = PBXFileReference; path = "SK1-4-Prefix.pch"; sourceTree = "<group>"; };
+		84E05AC916E7DAC200CB9A6A /* SKAppDelegate.h */ = {isa = PBXFileReference; path = SKAppDelegate.h; sourceTree = "<group>"; };
+		84E05ACA16E7DAC200CB9A6A /* SKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKAppDelegate.m; sourceTree = "<group>"; };
+		84E05ACD16E7DAC200CB9A6A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		84E05ACF16E7DAC300CB9A6A /* SKMasterViewController.h */ = {isa = PBXFileReference; path = SKMasterViewController.h; sourceTree = "<group>"; };
+		84E05AD016E7DAC300CB9A6A /* SKMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKMasterViewController.m; sourceTree = "<group>"; };
+		84E05AD216E7DAC300CB9A6A /* SKDetailViewController.h */ = {isa = PBXFileReference; path = SKDetailViewController.h; sourceTree = "<group>"; };
+		84E05AD316E7DAC300CB9A6A /* SKDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84E05AB316E7DAC200CB9A6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E05ABB16E7DAC200CB9A6A /* UIKit.framework in Frameworks */,
+				84E05ABD16E7DAC200CB9A6A /* Foundation.framework in Frameworks */,
+				84E05ABF16E7DAC200CB9A6A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84E05AAB16E7DAC200CB9A6A = {
+			isa = PBXGroup;
+			children = (
+				84E05AC016E7DAC200CB9A6A /* SK1-4 */,
+				84E05AB916E7DAC200CB9A6A /* Frameworks */,
+				84E05AB716E7DAC200CB9A6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84E05AB716E7DAC200CB9A6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84E05AB616E7DAC200CB9A6A /* SK1-4.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84E05AB916E7DAC200CB9A6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84E05ABA16E7DAC200CB9A6A /* UIKit.framework */,
+				84E05ABC16E7DAC200CB9A6A /* Foundation.framework */,
+				84E05ABE16E7DAC200CB9A6A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84E05AC016E7DAC200CB9A6A /* SK1-4 */ = {
+			isa = PBXGroup;
+			children = (
+				84E05AC916E7DAC200CB9A6A /* SKAppDelegate.h */,
+				84E05ACA16E7DAC200CB9A6A /* SKAppDelegate.m */,
+				84E05ACC16E7DAC200CB9A6A /* MainStoryboard.storyboard */,
+				84E05ACF16E7DAC300CB9A6A /* SKMasterViewController.h */,
+				84E05AD016E7DAC300CB9A6A /* SKMasterViewController.m */,
+				84E05AD216E7DAC300CB9A6A /* SKDetailViewController.h */,
+				84E05AD316E7DAC300CB9A6A /* SKDetailViewController.m */,
+				84E05AC116E7DAC200CB9A6A /* Supporting Files */,
+			);
+			path = "SK1-4";
+			sourceTree = "<group>";
+		};
+		84E05AC116E7DAC200CB9A6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84E05AC216E7DAC200CB9A6A /* SK1-4-Info.plist */,
+				84E05AC316E7DAC200CB9A6A /* InfoPlist.strings */,
+				84E05AC616E7DAC200CB9A6A /* main.m */,
+				84E05AC816E7DAC200CB9A6A /* SK1-4-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84E05AB516E7DAC200CB9A6A /* SK1-4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E05AD716E7DAC300CB9A6A /* Build configuration list for PBXNativeTarget "SK1-4" */;
+			buildPhases = (
+				84E05AB216E7DAC200CB9A6A /* Sources */,
+				84E05AB316E7DAC200CB9A6A /* Frameworks */,
+				84E05AB416E7DAC200CB9A6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SK1-4";
+			productName = "SK1-4";
+			productReference = 84E05AB616E7DAC200CB9A6A /* SK1-4.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84E05AAD16E7DAC200CB9A6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SK;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 84E05AB016E7DAC200CB9A6A /* Build configuration list for PBXProject "SK1-4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84E05AAB16E7DAC200CB9A6A;
+			productRefGroup = 84E05AB716E7DAC200CB9A6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84E05AB516E7DAC200CB9A6A /* SK1-4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84E05AB416E7DAC200CB9A6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E05AC516E7DAC200CB9A6A /* InfoPlist.strings in Resources */,
+				84E05ACE16E7DAC200CB9A6A /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84E05AB216E7DAC200CB9A6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E05AC716E7DAC200CB9A6A /* main.m in Sources */,
+				84E05ACB16E7DAC200CB9A6A /* SKAppDelegate.m in Sources */,
+				84E05AD116E7DAC300CB9A6A /* SKMasterViewController.m in Sources */,
+				84E05AD416E7DAC300CB9A6A /* SKDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84E05AC316E7DAC200CB9A6A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E05AC416E7DAC200CB9A6A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84E05ACC16E7DAC200CB9A6A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E05ACD16E7DAC200CB9A6A /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84E05AD516E7DAC300CB9A6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84E05AD616E7DAC300CB9A6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84E05AD816E7DAC300CB9A6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SK1-4/SK1-4-Prefix.pch";
+				INFOPLIST_FILE = "SK1-4/SK1-4-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84E05AD916E7DAC300CB9A6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SK1-4/SK1-4-Prefix.pch";
+				INFOPLIST_FILE = "SK1-4/SK1-4-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84E05AB016E7DAC200CB9A6A /* Build configuration list for PBXProject "SK1-4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E05AD516E7DAC300CB9A6A /* Debug */,
+				84E05AD616E7DAC300CB9A6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E05AD716E7DAC300CB9A6A /* Build configuration list for PBXNativeTarget "SK1-4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E05AD816E7DAC300CB9A6A /* Debug */,
+				84E05AD916E7DAC300CB9A6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84E05AAD16E7DAC200CB9A6A /* Project object */;
+}
